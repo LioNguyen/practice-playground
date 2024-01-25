@@ -1,0 +1,20 @@
+{
+  "name": "zod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-1": "nodemon 1-basics.ts",
+    "dev-2": "nodemon 2-parsing.ts",
+    "dev-3": "nodemon 3-refine.ts",
+    "dev-4": "nodemon 4-enums.ts"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
