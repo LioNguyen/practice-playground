@@ -3,7 +3,8 @@
 ## Resources
 
 - [Learn Just Enough Zod to be Productive](https://youtu.be/1MT3mOsVxAo?si=gXXFISS4nPx7CaRX)
-- [Github Repo](https://github.com/TomDoesTech/just-enough-zod-to-be-productive)
+- [Tutorial Github Repo](https://github.com/TomDoesTech/just-enough-zod-to-be-productive)
+- [Zod Homepage](https://zod.dev)
 
 ## What is Zod?
 

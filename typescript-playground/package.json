@@ -1,7 +1,7 @@
 {
   "name": "typescript-playground",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.ts",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only src/app.ts"
