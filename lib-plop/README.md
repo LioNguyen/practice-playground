@@ -22,6 +22,14 @@ yarn add plop -D
 }
 ```
 
+`settings.json`
+
+```json
+{
+  "[handlebars]": { "editor.formatOnSave": false }
+}
+```
+
 ## How to use
 
 - Use `{{variable}}` to add variable
