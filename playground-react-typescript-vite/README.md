@@ -1,34 +1,42 @@
 # React + TypeScript + Vite
 
-- [Vite Guide](https://vitejs.dev/guide/)
-
 `yarn create vite` currently cannot be used on mac M1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What technologies we are using?
 
-Currently, two official plugins are available:
+- [Eslint](https://eslint.org/docs/latest)
+- [Plop](https://plopjs.com)
+- [Styled-components](https://styled-components.com/docs)
+- [Vite](https://vitejs.dev/guide/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to setup path aliases w/ React + Vite + TS
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+```bash
+yarn add -D @types/node
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```js
+// vite.config.ts
+
+import * as path from "path";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
+  },
+});
+```
+
+`tsconfig.json`
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
+```

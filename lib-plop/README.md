@@ -12,9 +12,9 @@
 yarn add plop -D
 ```
 
-```json
-// package.json
+`package.json`
 
+```json
 {
   "scripts": {
     "gen": "plop"

@@ -1,6 +1,6 @@
 # TYPESCRIPT PLAYGROUND
 
-## Resource
+## What technologies we are using?
 
 - [ts-node](https://www.npmjs.com/package/ts-node)
 - [ts-node-dev](https://www.npmjs.com/package/ts-node-dev) (old lib)

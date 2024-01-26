@@ -1,6 +1,6 @@
 # PLAYGROUND EXPRESS TYPESCRIPT
 
-## Resources
+## What technologies we are using?
 
 - [Config](https://www.npmjs.com/package/config)
 - [ExpressJS](https://expressjs.com/en/starter/installing.html)
