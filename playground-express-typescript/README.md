@@ -2,8 +2,10 @@
 
 ## What technologies we are using?
 
+- [Cookie Parser](https://www.npmjs.com/package/cookie-parser)
 - [Config](https://www.npmjs.com/package/config)
 - [ExpressJS](https://expressjs.com/en/starter/installing.html)
+- [Express Async Handler](https://www.npmjs.com/package/express-async-handler)
 
 ## How to setup
 
@@ -11,10 +13,15 @@
 
 - Init project with yarn and typescript (check playground-typescript folder)
 - Install express
+- Install necessary library
 
 ```bash
-yarn add express
-yarn add @types/express -D
+yarn add express@5
+yarn add -D @types/express
+yarn add -D @types/node nodemon ts-node tsconfig-paths typescript
+
+yarn add config cookie-parser dotenv express-async-handler
+yarn add -D @types/config @types/cookie-parser
 ```
 
 ### Setup middleware
