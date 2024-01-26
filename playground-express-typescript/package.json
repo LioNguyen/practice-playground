@@ -1,0 +1,23 @@
+{
+  "name": "playground-express-typescript",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r tsconfig-paths/register --transpileOnly src/app.ts"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.6",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "config": "^3.3.10",
+    "dotenv": "^16.4.1",
+    "express": "^5.0.0-alpha.8"
+  }
+}

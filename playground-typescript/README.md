@@ -25,7 +25,7 @@ yarn add nodemon ts-node tsconfig-paths @types/node --dev
 ```json
 
 "scripts": {
-    "dev": "ts-node -r tsconfig-paths/register --transpileOnly src/app.ts"
+    "dev": "nodemon -r tsconfig-paths/register --transpileOnly src/app.ts"
  },
 ```
 
