@@ -6,6 +6,7 @@
 - [Config](https://www.npmjs.com/package/config)
 - [ExpressJS](https://expressjs.com/en/starter/installing.html)
 - [Express Async Handler](https://www.npmjs.com/package/express-async-handler)
+- [Pino](https://getpino.io/#/)
 
 ## How to setup
 
@@ -20,8 +21,8 @@ yarn add express@5
 yarn add -D @types/express
 yarn add -D @types/node nodemon ts-node tsconfig-paths typescript
 
-yarn add config cookie-parser dotenv express-async-handler
-yarn add -D @types/config @types/cookie-parser
+yarn add cookie-parser config dotenv express-async-handler pino
+yarn add -D @types/config @types/cookie-parser pino-pretty
 ```
 
 ### Setup middleware
@@ -54,4 +55,38 @@ require("dotenv").config();
 import config from "config";
 
 const PORT = config.get("port") || 8000;
+```
+
+### Setup logger
+
+```js
+// config/default.ts
+
+export default {
+  port: 8000,
+  logLevel: "info",
+};
+```
+
+```js
+// src/utils/logger/ts
+
+import config from "config";
+import dayjs from "dayjs";
+import logger from "pino";
+
+const level = config.get < string > "logLevel";
+
+const log = logger({
+  transport: {
+    target: "pino-pretty",
+  },
+  level,
+  base: {
+    pid: false,
+  },
+  timestamp: () => `,"time":"${dayjs().format()}"`,
+});
+
+export default log;
 ```
