@@ -19,12 +19,12 @@ export default function (
     actions: [
       {
         type: "add",
-        path: "src/{{toLowerCase challengeType}}/{{challengeName}}.ts",
+        path: "src/{{toLowerCase challengeType}}/{{challengeName}}/{{challengeName}}.ts",
         templateFile: "templates/challenge.ts.hbs",
       },
       {
         type: "add",
-        path: "src/{{toLowerCase challengeType}}/{{challengeName}}.spec.ts",
+        path: "src/{{toLowerCase challengeType}}/{{challengeName}}/{{challengeName}}.spec.ts",
         templateFile: "templates/challenge.spec.ts.hbs",
       },
     ],
