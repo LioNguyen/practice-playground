@@ -1,0 +1,46 @@
+[
+  {
+    "category": "HTML-CSS",
+    "type": "HTML",
+    "question": "Is there any difference between the way add external javascript file and external style file to HTML?",
+    "reference": "playground-html-css/README.md",
+    "creationTime": "2024-02-15T11:31:22.499Z"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "HTML",
+    "question": "How to add external style to HTML?",
+    "reference": "playground-html-css/README.md",
+    "creationTime": "2024-02-15T11:31:22.500Z"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to use Grid?",
+    "reference": "playground-html-css/README.md",
+    "creationTime": "2024-02-17T11:31:22.500Z"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "SCSS",
+    "question": "How to create variables with SCSS?",
+    "reference": "playground-html-css/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://sass-lang.com/playground/#eJwzNAQAAJUAYw==' target='_blank'>SCSS Playground</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.501Z"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "SCSS",
+    "question": "How to split 1 scss file into multiple scss files?",
+    "reference": "playground-html-css/README.md",
+    "creationTime": "2024-02-15T11:31:22.502Z"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "SCSS",
+    "question": "How to create and use function in scss file?",
+    "reference": "playground-html-css/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://sass-lang.com/playground/#eJwzNAQAAJUAYw==' target='_blank'>SCSS Playground</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.503Z"
+  }
+]

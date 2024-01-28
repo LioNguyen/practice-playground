@@ -1,0 +1,5 @@
+@use "variables";
+
+* {
+  color: variables.$primary-color;
+}

@@ -4,7 +4,7 @@
   "main": "src/app.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon -r tsconfig-paths/register --transpileOnly src/app.ts"
+    "dev": "nodemon -r tsconfig-paths/register --transpileOnly index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.6",

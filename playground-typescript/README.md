@@ -1,5 +1,9 @@
 # TYPESCRIPT PLAYGROUND
 
+## Resources
+
+- [Typescript tutorial](https://www.typescripttutorial.net)
+
 ## What technologies we are using?
 
 - [ts-node](https://www.npmjs.com/package/ts-node)
@@ -23,10 +27,11 @@ yarn add nodemon ts-node tsconfig-paths @types/node --dev
 `package.json`
 
 ```json
-
-"scripts": {
+{
+  "scripts": {
     "dev": "nodemon -r tsconfig-paths/register --transpileOnly src/app.ts"
- },
+  }
+}
 ```
 
 [ts-node transpile](https://www.npmjs.com/package/ts-node#transpileonly)
@@ -42,10 +47,11 @@ yarn add ts-node-dev tsconfig-paths --dev
 `package.json`
 
 ```json
-
-"scripts": {
+{
+  "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only src/app.ts"
- },
+  }
+}
 ```
 
 ### Config

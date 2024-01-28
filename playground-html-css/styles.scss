@@ -1,0 +1,57 @@
+@use "variables";
+@use "base";
+
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: variables.$white;
+}
+
+body {
+  background: variables.$white;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+p.alert {
+  @include theme(DarkRed);
+}
+p.info {
+  @include theme;
+}
+p.success {
+  @include theme(DarkGreen);
+}
+
+.grid-container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px 50px;
+
+  .box {
+    background: #eee;
+    border-radius: 4px;
+  }
+
+  .box-1 {
+    background: red;
+    grid-column: 1 / span 4;
+  }
+
+  .box-2 {
+    background: yellow;
+    grid-row: 2 / span 3;
+  }
+
+  .box-3 {
+    background: blue;
+    grid-area: 2 / 2 / span 3 / span 3;
+  }
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query data in SQL with custom column and alias?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to sort data in SQL?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to remove duplicate results?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How limit the number of rows returned?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "Which cases to use LIMIT OFFSET?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "Alternative for LIMIT OFFSET?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query db based on specific condition?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+  },
+
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query db with Logical Operator?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, salary</b> in <b>employees</b> table when <b>salary in range of 5000 and 7000</b>. Try to use multiple ways to solve.</li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query db with Logical Operator?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, hire_date, department_id</b> in <b>employees</b> table when <b>salary department_id = 3</b> and <b>hire_date > 1999 or < 1998</b>. Try to use multiple ways to solve.</li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query db with Logical Operator?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, phone_number</b> in <b>employees</b> table when <b>phone_number not null</b>. Try to use multiple ways to solve.</li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query db with Logical Operator?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, department_id</b> in <b>employees</b> table when <b>department_id is 8 or 9</b>. Try to use multiple ways to solve.</li></ul>"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query db with Logical Operator?",
+    "reference": "playground-database/sql/README.md",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, employee_id</b> in <b>employees</b> table when <b>first_name starts with 'S'</b> and <b>is not followed by 'h'</b>. Try to use multiple ways to solve.</li></ul>",
+    "answer": "<ul style='list-style-type: disc'><li>SELECT first_name, last_name, employee_id <br>FROM employees <br>WHERE first_name LIKE \"S%\" <br>AND first_NAME NOT LIKE \"_i%\"</li></ul>"
+  }
+]

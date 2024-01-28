@@ -1,0 +1,56 @@
+* {
+  color: #333;
+}
+
+body {
+  background: #fff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p.alert {
+  background: DarkRed;
+  box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+  color: #fff;
+}
+
+p.info {
+  background: DarkGray;
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #fff;
+}
+
+p.success {
+  background: DarkGreen;
+  box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #fff;
+}
+
+.grid-container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+.grid-container .box {
+  background: #eee;
+  border-radius: 4px;
+}
+.grid-container .box-1 {
+  background: red;
+  grid-column: 1/span 4;
+}
+.grid-container .box-2 {
+  background: yellow;
+  grid-row: 2/span 3;
+}
+.grid-container .box-3 {
+  background: blue;
+  grid-area: 2/2/span 3/span 3;
+}
+
+/*# sourceMappingURL=styles.css.map */

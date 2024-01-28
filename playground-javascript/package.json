@@ -5,9 +5,15 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon index.js",
+    "practice": "nodemon practice/practice.js",
+    "tech": "nodemon techniques/techniques.js",
+    "web": "nodemon web-api/webApi.js"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

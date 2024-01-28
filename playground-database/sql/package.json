@@ -1,0 +1,17 @@
+{
+  "name": "playground-database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
