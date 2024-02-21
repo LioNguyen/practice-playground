@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Product Modal</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex justify-center items-center bg-slate-100 min-h-screen">
+      <!-- Card Container -->
+      <div
+        class="m-3 shadow-2xl rounded-2xl p-6 bg-white flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-10 md:p-16"
+      >
+        <!-- Image Content -->
+        <div>
+          <img
+            src="images/headphone.png"
+            alt=""
+            class="mx-auto w-60 hover:scale-105 duration-200"
+          />
+        </div>
+
+        <!-- Content -->
+        <div class="flex flex-col space-y-6">
+          <!-- Label & Title Container -->
+          <div class="flex flex-col space-y-3 text-center md:text-left">
+            <!-- Label -->
+            <div>
+              <div
+                class="inline-block rounded-full bg-black text-white text-center px-3 py-1 text-sm"
+              >
+                Free Shipping
+              </div>
+            </div>
+
+            <!-- Title -->
+            <div class="text-2xl font-medium max-w-sm">
+              Razer Karen Kitty Edt Gaming Heaset Quartz
+            </div>
+            <!-- Price Container -->
+            <div class="flex flex-col space-y-3 text-center md:text-left">
+              <p class="line-through">$799</p>
+              <p class="text-5xl font-bold">$599</p>
+              <p class="text-sm text-gray-400 font-light">
+                This offer is valid until April 3rd or as long as stock lasts!
+              </p>
+            </div>
+
+            <!-- Button Group -->
+            <div class="group">
+              <button
+                class="w-full border-b-8 border-b-blue-700 bg-blue-700 text-white rounded-lg group-hover:border-t-8 group-hover:border-t-blue-700 group-hover:border-b-0 group-hover:shadow-lg transition-all duration-150"
+              >
+                <div
+                  class="bg-blue-500 px-8 py-4 rounded-lg group-hover:bg-blue-700 duration-150"
+                >
+                  Add to cart
+                </div>
+              </button>
+            </div>
+
+            <!-- Stock -->
+            <div class="flex items-center space-x-2 group">
+              <div
+                class="rounded-full h-3 w-3 bg-green-300 group-hover:animate-ping"
+              ></div>
+              <div class="text-sm">50+ pcs. in stock</div>
+            </div>
+
+            <!-- Bottom Button Container -->
+            <div
+              class="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0"
+            >
+              <button
+                class="border-2 border-gray-300 rounded-lg px-5 py-3 flex items-center justify-center space-x-3 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-150"
+              >
+                <img src="images/weight.png" class="w-8" />
+                <span>Add to cart</span>
+              </button>
+              <button
+                class="border-2 border-gray-300 rounded-lg px-5 py-3 flex items-center justify-center space-x-3 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-150"
+              >
+                <img src="images/heart.png" class="w-8" />
+                <span>Add to wishlist</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

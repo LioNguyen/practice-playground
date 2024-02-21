@@ -2,7 +2,11 @@
 
 - [TAILWIND](#tailwind)
   - [1. Resources](#1-resources)
-  - [2. How to install?](#2-how-to-install)
+  - [2. How to setup?](#2-how-to-setup)
+    - [a. Install library](#a-install-library)
+    - [b. Config](#b-config)
+      - [tailwind.config.js](#tailwindconfigjs)
+      - [package.json](#packagejson)
 
 ## 1. Resources
 
@@ -10,7 +14,9 @@
 - [Install Link](https://tailwindcss.com/docs/installation)
 - [Webpack Link](https://webpack.js.org)
 
-## 2. How to install?
+## 2. How to setup?
+
+### a. Install library
 
 ```Shell
 npm install -D tailwindcss
@@ -18,6 +24,23 @@ npx tailwindcss init
 
 npx tailwindcss -i ./css/style-tailwind.css -o ./css/style.css --watch
 ```
+
+### b. Config
+
+#### tailwind.config.js
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+#### package.json
 
 ```json
 {
