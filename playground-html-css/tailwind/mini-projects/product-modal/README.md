@@ -1,5 +1,7 @@
 # PRODUCT MODAL
 
+![](./images/product-modal.png)
+
 - [PRODUCT MODAL](#product-modal)
   - [Button Style](#button-style)
     - [Style 1](#style-1)

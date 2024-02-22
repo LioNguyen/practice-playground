@@ -1,0 +1,13 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./css/style-tailwind.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./css/style-tailwind.css -o ./css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
