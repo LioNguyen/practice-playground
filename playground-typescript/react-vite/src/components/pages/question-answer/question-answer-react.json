@@ -15,13 +15,13 @@
     "category": "React",
     "type": "React Library",
     "question": "How to add react-hook-form into form?",
-    "reference": "playground-typescript/react-vite/src/lib/react-hook-form/README.md"
+    "reference": "playground-typescript/react-vite/src/library/react-hook-form/README.md"
   },
   {
     "category": "React",
     "type": "React Library",
     "question": "How to validate form with Zod?",
-    "reference": "playground-typescript/react-vite/src/lib/react-hook-form/README.md"
+    "reference": "playground-typescript/react-vite/src/library/react-hook-form/README.md"
   },
   {
     "category": "React",

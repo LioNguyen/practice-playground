@@ -46,6 +46,7 @@ function MyForm() {
 ## How to validate form with Zod?
 
 `yarn add zod`
+
 `yarn add @hookform/resolvers`
 
 ```js
