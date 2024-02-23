@@ -1,513 +1,647 @@
 [
   {
     "category": "Javascript",
-    "type": "Algorithm",
-    "question": "What is bubble sort?",
-    "reference": "playground-javascript/algorithms/sorting/bubble-sort.js"
+    "type": "Data Type | Symbol",
+    "question": "What is Symbol?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/12-symbol/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-0"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to get window size?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Promise",
+    "question": "When will callback hell happen?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/9-promises-async-await/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-1"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to open new window?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Promise",
+    "question": "How to handle multiple asynchronous operations?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/9-promises-async-await/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-2"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to close new window?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Promise",
+    "question": "What is different between Promise Chaining with multiple handlers for Promise?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/9-promises-async-await/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-3"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to get data from location (url)?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Promise",
+    "question": "What is Promise Chaining?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/9-promises-async-await/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-4"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to redirect to a new URL in multiple ways?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Function",
+    "question": "What is currying?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/techniques/currying/currying.js' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-5"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to get query string?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Function",
+    "question": "What is throttle?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/techniques/closure/throttle.js' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-6"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to check if a query string parameter exists?",
-    "reference": "playground-javascript/web-api/bom-api/README.md"
+    "type": "Function",
+    "question": "What is debounce?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/techniques/closure/debounce.js' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-7"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to get browser's information?",
-    "reference": "playground-javascript/web-api/bom-api/README.md",
-    "creationTime": "2024-02-16T04:06:55.091Z",
-    "answer": "<ul><li>window.navigator.userAgent</li></ul>"
+    "type": "Function",
+    "question": "Does function have hoisting?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-8"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to detect if current browser is the specific browser?",
-    "reference": "playground-javascript/web-api/bom-api/README.md",
-    "creationTime": "2024-02-16T04:06:55.091Z"
+    "type": "Function",
+    "question": "How to setup default parameters?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-9"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to detect if this feature is available or not?",
-    "reference": "playground-javascript/web-api/bom-api/README.md",
-    "creationTime": "2024-02-16T04:06:55.091Z"
+    "type": "Function",
+    "question": "What is the difference between Arguments vs. Parameters?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-10"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to to move forward and backward?",
-    "reference": "playground-javascript/web-api/bom-api/README.md",
-    "creationTime": "2024-02-16T04:06:55.091Z"
+    "type": "Function",
+    "question": "What is Recursion Function?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-11"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to refresh the current page in multiple ways?",
-    "reference": "playground-javascript/web-api/bom-api/README.md",
-    "creationTime": "2024-02-16T04:06:55.091Z"
+    "type": "Function",
+    "question": "What is pass-by-value or pass-by-reference?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-12"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to check number of URLs in history stack?",
-    "reference": "playground-javascript/web-api/bom-api/README.md",
-    "creationTime": "2024-02-16T04:06:55.091Z"
+    "type": "Function",
+    "question": "How to pass multiple arguments to function?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-13"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is DOM?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
+    "type": "Function",
+    "question": "How to pass arguments to IIFE?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-14"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to get parent elements, children elements and sibling elements?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
+    "type": "Function",
+    "question": "How to invoke IIFE?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-15"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to create element?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
+    "type": "Function",
+    "question": "What is IIFE?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-16"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to move child elements?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
+    "type": "Function",
+    "question": "What is anonymous function?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-17"
   },
   {
     "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is the difference between textContent vs innerText?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to add an external HTML?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is the difference between innerHTML vs createElement?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is DocumentFragment?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is the difference between encodeURIComponent vs encodeURI?",
-    "reference": "playground-javascript/web-api/dom-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is cookie?",
-    "reference": "playground-javascript/web-api/web-storage-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to set and get cookie?",
-    "reference": "playground-javascript/web-api/web-storage-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is local storage?",
-    "reference": "playground-javascript/web-api/web-storage-api/README.md",
-    "answer": "<ul><li>localStorage is a way to store data with <b>no expiration date</b> in web browsers. Data stored in the browsers will <b>persist even after you close the browser</b> windows.</li><li>The Storage object can <b>store only strings</b>.</li><li>To store objects, you convert them to strings using the <b>JSON.stringify()</b> method. And you convert the strings into objects when you retrieve them from the localStorage using the <b>JSON.parse()</b> method.</li></ul>"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "What is the difference between Local Storage vs Cookies?",
-    "reference": "playground-javascript/web-api/web-storage-api/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "WebAPI",
-    "question": "How to set item in local storage?",
-    "reference": "playground-javascript/web-api/web-storage-api/README.md"
-  },
-
-  {
-    "category": "Javascript",
-    "type": "Data Type | Number",
-    "question": "How to get random number?",
-    "reference": "playground-typescript/react-vite/src/utils/number.ts"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Object",
-    "question": "What is object?",
-    "reference": "playground-javascript/2-fundamentals/data-type/object/README.md",
-    "answer": "<ul><li>An object is an <b>unordered collection</b> of <b>key-value pairs</b>. Each key-value pair is called a property.</li><li>The <b>key</b> of a property can be a <b>string</b></li><li>The <b>value</b> of a property can be <b>any value</b>, e.g., a string, a number, an array, and even a function.</li></ul>"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Object",
-    "question": "How to access properties?",
-    "reference": "playground-javascript/2-fundamentals/data-type/object/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Object",
-    "question": "How to modify the value of a property?",
-    "reference": "playground-javascript/2-fundamentals/data-type/object/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Object",
-    "question": "How to add, delete a new property to an object?",
-    "reference": "playground-javascript/2-fundamentals/data-type/object/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Object",
-    "question": "How to check if a property exists?",
-    "reference": "playground-javascript/2-fundamentals/data-type/object/README.md"
+    "type": "Function",
+    "question": "What is call, bind, apply in JS?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-18"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
-    "question": "What is array?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to create JavaScript arrays? (5 methods)",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-15T04:50:36.565Z"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to access, change JavaScript array elements?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to get array size?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to add an element to the beginning, end of an array?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to remove an element from the beginning, end of an array?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to find an index of an element in the array?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
+    "question": "How to get unique item list?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-typescript/react-vite/src/utils/array.ts' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-19"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
     "question": "How to check if a value is an array?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-20"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Array",
+    "question": "How to find an index of an element in the array?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-21"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Array",
+    "question": "How to remove an element from the beginning, end of an array?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-22"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Array",
+    "question": "How to add an element to the beginning, end of an array?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-23"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Array",
+    "question": "How to get array size?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-24"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Array",
+    "question": "How to access, change JavaScript array elements?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-25"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Array",
+    "question": "What is array?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-26"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Object",
+    "question": "How to check if a property exists?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/object/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-27"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Object",
+    "question": "How to add, delete a new property to an object?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/object/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-28"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Object",
+    "question": "How to modify the value of a property?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/object/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-29"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Object",
+    "question": "How to access properties?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/object/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-30"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Object",
+    "question": "What is object?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/object/README.md' target='_blank'>Github Link</a></li></ul>",
+    "answer": "<ul><li>An object is an <b>unordered collection</b> of <b>key-value pairs</b>. Each key-value pair is called a property.</li><li>The <b>key</b> of a property can be a <b>string</b></li><li>The <b>value</b> of a property can be <b>any value</b>, e.g., a string, a number, an array, and even a function.</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-31"
+  },
+  {
+    "category": "Javascript",
+    "type": "Data Type | Number",
+    "question": "How to get random number?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-typescript/react-vite/src/utils/number.ts' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-32"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to set item in local storage?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/web-storage-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-33"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is the difference between Local Storage vs Cookies?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/web-storage-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-34"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is local storage?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/web-storage-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "answer": "<ul><li>localStorage is a way to store data with <b>no expiration date</b> in web browsers. Data stored in the browsers will <b>persist even after you close the browser</b> windows.</li><li>The Storage object can <b>store only strings</b>.</li><li>To store objects, you convert them to strings using the <b>JSON.stringify()</b> method. And you convert the strings into objects when you retrieve them from the localStorage using the <b>JSON.parse()</b> method.</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-35"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to set and get cookie?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/web-storage-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-36"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is cookie?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/web-storage-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-37"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is the difference between encodeURIComponent vs encodeURI?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-38"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is DocumentFragment?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-39"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is the difference between innerHTML vs createElement?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-40"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to add an external HTML?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-41"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is the difference between textContent vs innerText?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-42"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to move child elements?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-43"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to create element?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-44"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to get parent elements, children elements and sibling elements?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-45"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "What is DOM?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/dom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-46"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to check if a query string parameter exists?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-47"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to get query string?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-48"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to redirect to a new URL in multiple ways?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-49"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to get data from location (url)?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-50"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to close new window?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-51"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to open new window?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-52"
+  },
+  {
+    "category": "Javascript",
+    "type": "WebAPI",
+    "question": "How to get window size?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-53"
+  },
+  {
+    "category": "Javascript",
+    "type": "Algorithm",
+    "question": "What is bubble sort?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/algorithms/sorting/bubble-sort.js' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Javascript-54"
+  },
+  {
+    "category": "Javascript",
+    "type": "Class",
+    "question": "How to apply get & set for object?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/7-classes/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-14T12:08:00.364Z",
+    "id": "Javascript-55"
+  },
+  {
+    "category": "Javascript",
+    "type": "Class",
+    "question": "How to get & set class property?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/7-classes/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-14T12:08:00.364Z",
+    "id": "Javascript-56"
+  },
+  {
+    "category": "Javascript",
+    "type": "Class",
+    "question": "How to create a Class?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/7-classes/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-14T12:08:00.364Z",
+    "id": "Javascript-57"
+  },
+  {
+    "category": "Javascript",
+    "type": "Class",
+    "question": "How to use variable as property in Class?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/7-classes/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-14T14:06:09.252Z",
+    "id": "Javascript-58"
+  },
+  {
+    "category": "Javascript",
+    "type": "Class",
+    "question": "Alternative way to create class (singleton)",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/7-classes/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-14T14:06:09.252Z",
+    "id": "Javascript-59"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
     "question": "How to modify array with length?",
     "description": "<ul style='list-style-type: disc'><li>Create an array with 10 elements in 3 ways</li><li>Then, remove 5 last elements</li><li>Then, add 7th, 8th, 15th element in this array with any value</li><li>Then, empty this array</li></ul>",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-14T14:33:21.855Z"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-14T14:33:21.855Z",
+    "id": "Javascript-60"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
     "question": "How to Delete, Insert, and Replace in an array using Splice?",
     "description": "<ul style='list-style-type: disc'><li>Create an array [1, 2, 3, 4, 5]</li><li>Remove the first 3 numbers of array</li><li>Insert 1 number at third position</li><li>Replace last number by another number</li></ul>",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-15T01:45:40.765Z"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Array",
-    "question": "How to clone or copy a portion of array using Slice?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-15T02:21:04.289Z"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T01:45:40.765Z",
+    "id": "Javascript-61"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
     "question": "How to convert array-like objects into arrays using Slice or alternative method?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-15T02:21:04.289Z"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T02:21:04.289Z",
+    "id": "Javascript-62"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
-    "question": "How to reverse an array in multiple ways?",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-15T02:47:39.916Z"
+    "question": "How to clone or copy a portion of array using Slice?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T02:21:04.289Z",
+    "id": "Javascript-63"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
     "question": "Reverse a string based on the way reverse an array",
-    "reference": "playground-javascript/2-fundamentals/data-type/array/README.md",
-    "creationTime": "2024-02-15T02:47:39.916Z"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T02:47:39.916Z",
+    "id": "Javascript-64"
   },
   {
     "category": "Javascript",
     "type": "Data Type | Array",
-    "question": "How to get unique item list?",
-    "reference": "playground-typescript/react-vite/src/utils/array.ts"
+    "question": "How to reverse an array in multiple ways?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T02:47:39.916Z",
+    "id": "Javascript-65"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "How to call a function without using parenthesis (3 methods)?",
-    "reference": "playground-javascript/function/README.md",
-    "creationTime": "2024-02-17T01:20:08.587Z"
+    "type": "Data Type | Array",
+    "question": "How to create JavaScript arrays? (5 methods)",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/2-fundamentals/data-type/array/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T04:50:36.565Z",
+    "id": "Javascript-66"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "What is call, bind, apply in JS?",
-    "reference": "playground-javascript/function/README.md"
+    "type": "WebAPI",
+    "question": "How to check number of URLs in history stack?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T04:06:55.091Z",
+    "id": "Javascript-67"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "What is anonymous function?",
-    "reference": "playground-javascript/function/README.md"
+    "type": "WebAPI",
+    "question": "How to refresh the current page in multiple ways?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T04:06:55.091Z",
+    "id": "Javascript-68"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "What is IIFE?",
-    "reference": "playground-javascript/function/README.md"
+    "type": "WebAPI",
+    "question": "How to to move forward and backward?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T04:06:55.091Z",
+    "id": "Javascript-69"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "How to invoke IIFE?",
-    "reference": "playground-javascript/function/README.md"
+    "type": "WebAPI",
+    "question": "How to detect if this feature is available or not?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T04:06:55.091Z",
+    "id": "Javascript-70"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "How to pass arguments to IIFE?",
-    "reference": "playground-javascript/function/README.md"
+    "type": "WebAPI",
+    "question": "How to detect if current browser is the specific browser?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T04:06:55.091Z",
+    "id": "Javascript-71"
   },
   {
     "category": "Javascript",
-    "type": "Function",
-    "question": "How to pass multiple arguments to function?",
-    "reference": "playground-javascript/function/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "What is pass-by-value or pass-by-reference?",
-    "reference": "playground-javascript/function/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "What is Recursion Function?",
-    "reference": "playground-javascript/function/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "What is the difference between Arguments vs. Parameters?",
-    "reference": "playground-javascript/function/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "How to setup default parameters?",
-    "reference": "playground-javascript/function/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "Does function have hoisting?",
-    "reference": "playground-javascript/function/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "What is debounce?",
-    "reference": "playground-javascript/techniques/closure/debounce.js"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "What is throttle?",
-    "reference": "playground-javascript/techniques/closure/throttle.js"
-  },
-  {
-    "category": "Javascript",
-    "type": "Function",
-    "question": "What is currying?",
-    "reference": "playground-javascript/techniques/currying/currying.js"
-  },
-  {
-    "category": "Javascript",
-    "type": "Promise",
-    "question": "What is Promise Chaining?",
-    "reference": "playground-javascript/9-promises-async-await/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Promise",
-    "question": "What is different between Promise Chaining with multiple handlers for Promise?",
-    "reference": "playground-javascript/9-promises-async-await/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Promise",
-    "question": "How to handle multiple asynchronous operations?",
-    "reference": "playground-javascript/9-promises-async-await/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Promise",
-    "question": "When will callback hell happen?",
-    "reference": "playground-javascript/9-promises-async-await/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Data Type | Symbol",
-    "question": "What is Symbol?",
-    "reference": "playground-javascript/12-symbol/README.md"
-  },
-  {
-    "category": "Javascript",
-    "type": "Collections",
-    "question": "How to create map and set?",
-    "reference": "playground-javascript/13-collections/README.md",
-    "creationTime": "2024-02-16T07:19:02.206Z"
-  },
-  {
-    "category": "Javascript",
-    "type": "Collections",
-    "question": "How to get or add element to map and set?",
-    "reference": "playground-javascript/13-collections/README.md",
-    "creationTime": "2024-02-16T07:19:02.206Z"
-  },
-  {
-    "category": "Javascript",
-    "type": "Collections",
-    "question": "How to delete an element or delete all elements in map and set?",
-    "reference": "playground-javascript/13-collections/README.md",
-    "creationTime": "2024-02-16T07:19:02.206Z"
-  },
-  {
-    "category": "Javascript",
-    "type": "Collections",
-    "question": "How to check the existence of an element in map and set?",
-    "reference": "playground-javascript/13-collections/README.md",
-    "creationTime": "2024-02-16T07:19:02.206Z"
-  },
-  {
-    "category": "Javascript",
-    "type": "Collections",
-    "question": "How to check map and set size?",
-    "reference": "playground-javascript/13-collections/README.md",
-    "creationTime": "2024-02-16T07:19:02.206Z"
+    "type": "WebAPI",
+    "question": "How to get browser's information?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/bom-api/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T04:06:55.091Z",
+    "answer": "<ul><li>window.navigator.userAgent</li></ul>",
+    "id": "Javascript-72"
   },
   {
     "category": "Javascript",
     "type": "Collections",
     "question": "How to iterate over map's and set's keys, values, elements?",
-    "reference": "playground-javascript/13-collections/README.md",
-    "creationTime": "2024-02-16T07:19:02.206Z"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/13-collections/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T07:19:02.206Z",
+    "id": "Javascript-73"
   },
   {
     "category": "Javascript",
-    "type": "Class",
-    "question": "How to create a Class?",
-    "reference": "playground-javascript/7-classes/README.md",
-    "creationTime": "2024-02-14T12:08:00.364Z"
+    "type": "Collections",
+    "question": "How to check map and set size?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/13-collections/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T07:19:02.206Z",
+    "id": "Javascript-74"
   },
   {
     "category": "Javascript",
-    "type": "Class",
-    "question": "How to get & set class property?",
-    "reference": "playground-javascript/7-classes/README.md",
-    "creationTime": "2024-02-14T12:08:00.364Z"
+    "type": "Collections",
+    "question": "How to check the existence of an element in map and set?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/13-collections/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T07:19:02.206Z",
+    "id": "Javascript-75"
   },
   {
     "category": "Javascript",
-    "type": "Class",
-    "question": "How to apply get & set for object?",
-    "reference": "playground-javascript/7-classes/README.md",
-    "creationTime": "2024-02-14T12:08:00.364Z"
+    "type": "Collections",
+    "question": "How to delete an element or delete all elements in map and set?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/13-collections/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T07:19:02.206Z",
+    "id": "Javascript-76"
   },
   {
     "category": "Javascript",
-    "type": "Class",
-    "question": "Alternative way to create class (singleton)",
-    "reference": "playground-javascript/7-classes/README.md",
-    "creationTime": "2024-02-14T14:06:09.252Z"
+    "type": "Collections",
+    "question": "How to get or add element to map and set?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/13-collections/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T07:19:02.206Z",
+    "id": "Javascript-77"
   },
   {
     "category": "Javascript",
-    "type": "Class",
-    "question": "How to use variable as property in Class?",
-    "reference": "playground-javascript/7-classes/README.md",
-    "creationTime": "2024-02-14T14:06:09.252Z"
+    "type": "Collections",
+    "question": "How to create map and set?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/13-collections/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-16T07:19:02.206Z",
+    "id": "Javascript-78"
+  },
+  {
+    "category": "Javascript",
+    "type": "Function",
+    "question": "How to call a function without using parenthesis (3 methods)?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-17T01:20:08.587Z",
+    "id": "Javascript-79"
   }
 ]

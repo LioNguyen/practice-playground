@@ -7,7 +7,7 @@ export const QuestionAnswerWrapper = chakra(Stack, {
     },
     ".question-generate-type": {
       ".chakra-select__wrapper": {
-        width: "200px",
+        width: "150px",
       },
     },
     ".filter__category": {

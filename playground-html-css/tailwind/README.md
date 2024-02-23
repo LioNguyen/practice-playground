@@ -7,6 +7,8 @@
     - [b. Config](#b-config)
       - [tailwind.config.js](#tailwindconfigjs)
       - [package.json](#packagejson)
+  - [3. Some rules](#3-some-rules)
+    - [Container \& Spacing](#container--spacing)
 
 ## 1. Resources
 
@@ -66,4 +68,23 @@ module.exports = {
     <!-- Your code here  -->
   </body>
 </html>
+```
+
+## 3. Some rules
+
+- For `spacing`, `size`, 1rem = 16px = `[x]-4` = `[w|h]-4`
+- For `typography`, 1rem = 16px = `text-base`
+- for `border`, 1rem = 16px = `rounded-2xl`
+
+### Container & Spacing
+
+```html
+<!-- Breakpoints for Container 
+    container	None	width: 100%;
+    sm (640px)	    max-width: 640px;
+    md (768px)	    max-width: 768px;
+    lg (1024px)	    max-width: 1024px;
+    xl (1280px)	    max-width: 1280px;
+    2xl (1536px)	  max-width: 1536px; 
+-->
 ```

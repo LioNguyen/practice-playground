@@ -2,18 +2,21 @@ import * as S from "./question-answer.styles";
 
 import {
   Button,
+  Center,
   Divider,
   HStack,
+  Icon,
   Input,
-  Link,
   Text,
   Wrap,
 } from "@chakra-ui/react";
 import { useEffect, useMemo, useState } from "react";
+import { FaBookmark, FaRegBookmark } from "react-icons/fa";
 import { useSearchParams } from "react-router-dom";
 
 import { Accordion, SelectOption } from "@/components";
 import {
+  LocalStorage,
   getFilterList,
   getRandomNumber,
   getSearchParams,
@@ -50,11 +53,14 @@ const originalQuestionList = sortListBasedOnProperty(
  */
 export function QuestionAnswer() {
   const [questionList, setQuestionList] = useState<any[]>(originalQuestionList);
+  const [bookmarkList, setBookmarkList] = useState(() => {
+    return LocalStorage.get("bookmark") || [];
+  });
+  const [searchKeyword, setSearchKeyword] = useState("");
+  const [toggleBookmarkList, setToggleBookmarkList] = useState(false);
 
   const [searchParams, setSearchParams] = useSearchParams();
   const params = getSearchParams(searchParams);
-
-  // const questionStatus = LocalStorage.get("status");
 
   // START: Get question number, question category, question type data
   const questionNumber = useMemo(() => {
@@ -84,8 +90,8 @@ export function QuestionAnswer() {
   // START: Handle option list
   const generateType = [
     {
-      name: "Numerical Order",
-      value: "Numerical Order",
+      name: "Numerical",
+      value: "Numerical",
     },
     {
       name: "Random",
@@ -95,7 +101,9 @@ export function QuestionAnswer() {
   const questionCategoryList = getFilterList(
     getUniqueItemList(
       originalQuestionList.map((item) => (item as any).category || "")
-    )
+    ),
+    true,
+    originalQuestionList
   );
   const questionTypeList = getFilterList(
     getUniqueItemList(
@@ -113,9 +121,11 @@ export function QuestionAnswer() {
   // END: Handle option list
 
   const numberOfQuestions = questionList.length || 0;
+  const category = questionList[questionNumber - 1]?.category || "";
   const question = questionList[questionNumber - 1]?.question || "";
   const description = questionList[questionNumber - 1]?.description || "";
-  const answerPath = questionList[questionNumber - 1]?.reference || "";
+  const answerReference = questionList[questionNumber - 1]?.reference || "";
+
   const summary = questionList[questionNumber - 1]?.answer || "";
 
   const handleSearchParamsChange = (valueOject: {}) => {
@@ -145,19 +155,29 @@ export function QuestionAnswer() {
     });
   };
 
-  const handleQuestionNumberChange = (question: number) => {
-    handleSearchParamsChange({
-      question,
-    });
-  };
+  // const handleQuestionNumberChange = (question: number) => {
+  //   handleSearchParamsChange({
+  //     question,
+  //   });
+  // };
 
   const handleCategoryChange = (category: string) => {
-    const list = originalQuestionList.filter((item) => {
+    let list = originalQuestionList.filter((item) => {
       if (category !== "All") {
         return item.category === category;
       }
       return !!item;
     });
+
+    if (toggleBookmarkList) {
+      list = list.filter((item) => bookmarkList?.includes(item.question));
+    }
+
+    if (!!searchKeyword) {
+      list = list.filter((item) =>
+        item.question?.toLowerCase()?.includes(searchKeyword)
+      );
+    }
 
     setQuestionList(list);
     handleSearchParamsChange({
@@ -168,7 +188,7 @@ export function QuestionAnswer() {
   };
 
   const handleTypeChange = (type: string) => {
-    const list = originalQuestionList
+    let list = originalQuestionList
       .filter((item) => {
         if (questionCategory !== "All") {
           return item.category === questionCategory;
@@ -182,6 +202,16 @@ export function QuestionAnswer() {
         return !!item;
       });
 
+    if (toggleBookmarkList) {
+      list = list.filter((item) => bookmarkList?.includes(item.question));
+    }
+
+    if (!!searchKeyword) {
+      list = list.filter((item) =>
+        item.question?.toLowerCase()?.includes(searchKeyword)
+      );
+    }
+
     setQuestionList(list);
     handleSearchParamsChange({
       category: questionCategory,
@@ -190,19 +220,44 @@ export function QuestionAnswer() {
     });
   };
 
+  const handleBookmarkClick = (questionTitle: string) => {
+    let arr: string[] = [questionTitle];
+
+    if (bookmarkList) {
+      if (bookmarkList?.includes(questionTitle)) {
+        arr = [...bookmarkList].filter((item) => item !== questionTitle);
+      } else {
+        arr = [...bookmarkList, questionTitle];
+      }
+    }
+
+    LocalStorage.set("bookmark", getUniqueItemList(arr));
+    setBookmarkList(getUniqueItemList(arr));
+  };
+
+  const handleBookmarkToggle = () => {
+    setToggleBookmarkList((prev) => !prev);
+    handleSearchParamsChange({
+      category: "All",
+      type: "All",
+      question: 1,
+    });
+  };
+
   useEffect(() => {
     handleCategoryChange(questionCategory);
     if (questionType) {
       handleTypeChange(questionType);
     }
-  }, [questionCategory, questionNumber]);
+  }, [questionCategory, questionNumber, searchKeyword, toggleBookmarkList]);
 
   return (
     <S.QuestionAnswerWrapper>
       <Text variant="title">Questions</Text>
       <Text variant="text">Number of questions: {numberOfQuestions}</Text>
 
-      <HStack className="question-generate-type" mb="15px">
+      {/* Question Generation Type */}
+      <HStack className="question-generate-type" mt="15px" mb="15px">
         <SelectOption
           optionList={generateType}
           value={questionGenerateType}
@@ -247,18 +302,36 @@ export function QuestionAnswer() {
           </>
         )}
       </HStack>
+
+      {/* Question Filter */}
       <HStack
         className="question-filter"
         justifyContent="space-between"
         mb="15px"
       >
         <Wrap>
-          <Input
+          {/* <Input
             placeholder="Please enter number"
             type="number"
             onChange={(e) => {
               const questionNumber = +e.target.value;
               handleQuestionNumberChange(questionNumber);
+            }}
+          /> */}
+          <Input
+            border="none"
+            borderBottom="1px solid #CBD5E0"
+            borderRadius="unset"
+            width="200px"
+            _focus={{
+              borderColor: "#CBD5E0",
+              boxShadow: "none",
+              outline: "none",
+            }}
+            placeholder="Enter keyword"
+            onChange={(e) => {
+              const keyword = e.target.value;
+              setSearchKeyword(keyword);
             }}
           />
         </Wrap>
@@ -282,57 +355,93 @@ export function QuestionAnswer() {
         </HStack>
       </HStack>
 
-      <Text variant="heading-3">
-        {questionNumber}. {question}
-      </Text>
-
-      <S.QuestionBox display={!description && !answerPath ? "none" : "flex"}>
-        {description && (
-          <S.Description>
-            <S.Title variant="large-text">Description</S.Title>
-            <div
-              dangerouslySetInnerHTML={{ __html: sanitizedData(description) }}
-            />
-            <Divider borderColor="default.text" marginY="10px" />
-          </S.Description>
+      <HStack justifyContent="space-between" margin="20px 0 5px" width="100%">
+        {!!category ? (
+          <Center
+            bg="#EDF2F7"
+            borderRadius="4px"
+            boxShadow="2px 2px 10px 2px rgba(237, 242, 247, 0.5)"
+            fontWeight={700}
+            padding="5px 10px"
+            width="fit-content"
+          >
+            {category}
+          </Center>
+        ) : (
+          <div></div>
         )}
+        <Button
+          bg={toggleBookmarkList ? "#EDF2F7" : "none"}
+          border="1px solid #EDF2F7"
+          onClick={handleBookmarkToggle}
+        >
+          Show Bookmarks
+        </Button>
+      </HStack>
 
-        {answerPath && (
-          <S.Answer>
-            <S.Title variant="large-text">Reference</S.Title>
-            <u>
-              <li>
-                {answerPath ? (
-                  <Link
-                    href={`https://github.com/LioNguyen/practice-playground/tree/master/${answerPath}`}
-                    isExternal
-                  >
-                    {answerPath}
-                  </Link>
-                ) : (
-                  <></>
-                )}
-              </li>
-            </u>
-          </S.Answer>
-        )}
-      </S.QuestionBox>
+      {/* Question */}
+      {questionList.length > 0 && (
+        <>
+          <HStack alignItems="center" mb="10px">
+            <Button bg="none" onClick={() => handleBookmarkClick(question)}>
+              {bookmarkList?.includes(question) ? (
+                <Icon as={FaBookmark} height={40} />
+              ) : (
+                <Icon as={FaRegBookmark} height="20px" width="20px" />
+              )}
+            </Button>
 
-      <S.SummaryBox display={!summary ? "none" : "flex"}>
-        <Accordion
-          accordionList={[
-            {
-              AccordionTitle: "Answer",
-              AccordionPanel: (
+            <Text variant="heading-4" mb={0}>
+              {questionNumber}. {question}
+            </Text>
+          </HStack>
+
+          <S.QuestionBox
+            display={!description && !answerReference ? "none" : "flex"}
+          >
+            {description && (
+              <S.Description>
+                <S.Title variant="large-text">Description</S.Title>
                 <div
-                  dangerouslySetInnerHTML={{ __html: sanitizedData(summary) }}
+                  dangerouslySetInnerHTML={{
+                    __html: sanitizedData(description),
+                  }}
                 />
-              ),
-              key: "",
-            },
-          ]}
-        />
-      </S.SummaryBox>
+                <Divider borderColor="default.text" marginY="10px" />
+              </S.Description>
+            )}
+
+            {answerReference && (
+              <S.Answer>
+                <S.Title variant="large-text">Reference</S.Title>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: sanitizedData(answerReference),
+                  }}
+                />
+              </S.Answer>
+            )}
+          </S.QuestionBox>
+
+          <S.SummaryBox display={!summary ? "none" : "flex"}>
+            <Accordion
+              accordionList={[
+                {
+                  AccordionTitle: "Answer",
+                  AccordionPanel: (
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: sanitizedData(summary),
+                      }}
+                    />
+                  ),
+                  key: "",
+                },
+              ]}
+            />
+          </S.SummaryBox>
+        </>
+      )}
     </S.QuestionAnswerWrapper>
   );
 }

@@ -1,29 +1,33 @@
 [
   {
+    "id": "Interview-0",
     "category": "Interview",
     "type": "Javascript | Core",
     "question": "What is Javascript?",
     "answer": "<ul style='list-style-type: disc'><li>Ngôn ngữ <b>lập trình thông dịch</b> (Interpreted Programming Language)</li><li>Thường được sử dụng chủ yếu cho phía <b>client</b> trong phát triển web để tạo ra các trang <b>web tương tác và động</b></li><li>Được thiết kế để hoạt động trực tiếp trong trình duyệt web</li><li>JavaScript giúp thực hiện các chức năng như <b>thay đổi nội dung trang</b>, <b>xử lý sự kiện</b>, và <b>tương tác với người dùng</b> mà <b>không cần tải lại trang<b>.</li></ul>"
   },
   {
+    "id": "Interview-1",
     "category": "Interview",
     "type": "Javascript | Promise",
     "question": "When will callback hell happen?",
-    "reference": "playground-javascript/9-promises-async-await/README.md",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/9-promises-async-await/README.md' target='_blank'>Github Link</a></li></ul>",
     "answer": "<ul style='list-style-type: disc'><li>To deal with <b>asynchronous operations</b>, you often used the <b>callback functions</b>. However, when you <b>nest many callback functions</b>, the code will be more difficult to maintain. And you end up with a notorious issue which is known as the <b>callback hell</b>.</li></ul>"
   },
   {
+    "id": "Interview-2",
     "category": "Interview",
     "type": "Javascript | WebAPI",
     "question": "What is local storage?",
-    "reference": "playground-javascript/web-api/web-storage-api/README.md",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/web-api/web-storage-api/README.md' target='_blank'>Github Link</a></li></ul>",
     "answer": "<ul><li>localStorage is a way to store data with <b>no expiration date</b> in web browsers. Data stored in the browsers will <b>persist even after you close the browser</b> windows.</li><li>The Storage object can <b>store only strings</b>.</li><li>To store objects, you convert them to strings using the <b>JSON.stringify()</b> method. And you convert the strings into objects when you retrieve them from the localStorage using the <b>JSON.parse()</b> method.</li></ul>"
   },
   {
+    "id": "Interview-3",
     "category": "Interview",
     "type": "Javascript | Function",
     "question": "What is call, bind, apply in JS?",
-    "reference": "playground-javascript/function/README.md",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-javascript/function/README.md' target='_blank'>Github Link</a></li></ul>",
     "answer": "<ul><li>call, apply: dùng để <b>gọi hàm</b>, thiết lập <b>giá trị this</b> và truyên vào đối số cho hàm.</li><li>call truyền vào từng <b>đối số riêng lẻ</b>.</li><li>apply truyền vào <b>mảng đối số</b>.</li><li>bind: dùng để <b>tạo hàm mới</b> cùng với thiệp lập giá trị this.</li></ul>"
   }
 ]

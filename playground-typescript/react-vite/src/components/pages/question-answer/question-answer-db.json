@@ -2,87 +2,110 @@
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to query data in SQL with custom column and alias?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+    "question": "How to query db with Logical Operator?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, employee_id</b> in <b>employees</b> table when <b>first_name starts with 'S'</b> and <b>is not followed by 'h'</b>. Try to use multiple ways to solve.</li></ul>",
+    "answer": "<ul style='list-style-type: disc'><li>SELECT first_name, last_name, employee_id <br>FROM employees <br>WHERE first_name LIKE \"S%\" <br>AND first_NAME NOT LIKE \"_i%\"</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-0"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to sort data in SQL?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+    "question": "How to query db with Logical Operator?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, department_id</b> in <b>employees</b> table when <b>department_id is 8 or 9</b>. Try to use multiple ways to solve.</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-1"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to remove duplicate results?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+    "question": "How to query db with Logical Operator?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, phone_number</b> in <b>employees</b> table when <b>phone_number not null</b>. Try to use multiple ways to solve.</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-2"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How limit the number of rows returned?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+    "question": "How to query db with Logical Operator?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, hire_date, department_id</b> in <b>employees</b> table when <b>salary department_id = 3</b> and <b>hire_date > 1999 or < 1998</b>. Try to use multiple ways to solve.</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-3"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "Which cases to use LIMIT OFFSET?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
-  },
-  {
-    "category": "Database",
-    "type": "SQL",
-    "question": "Alternative for LIMIT OFFSET?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
+    "question": "How to query db with Logical Operator?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, salary</b> in <b>employees</b> table when <b>salary in range of 5000 and 7000</b>. Try to use multiple ways to solve.</li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-4"
   },
   {
     "category": "Database",
     "type": "SQL",
     "question": "How to query db based on specific condition?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>"
-  },
-
-  {
-    "category": "Database",
-    "type": "SQL",
-    "question": "How to query db with Logical Operator?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, salary</b> in <b>employees</b> table when <b>salary in range of 5000 and 7000</b>. Try to use multiple ways to solve.</li></ul>"
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-5"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to query db with Logical Operator?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, hire_date, department_id</b> in <b>employees</b> table when <b>salary department_id = 3</b> and <b>hire_date > 1999 or < 1998</b>. Try to use multiple ways to solve.</li></ul>"
+    "question": "Alternative for LIMIT OFFSET?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-6"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to query db with Logical Operator?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, phone_number</b> in <b>employees</b> table when <b>phone_number not null</b>. Try to use multiple ways to solve.</li></ul>"
+    "question": "Which cases to use LIMIT OFFSET?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-7"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to query db with Logical Operator?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, department_id</b> in <b>employees</b> table when <b>department_id is 8 or 9</b>. Try to use multiple ways to solve.</li></ul>"
+    "question": "How limit the number of rows returned?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-8"
   },
   {
     "category": "Database",
     "type": "SQL",
-    "question": "How to query db with Logical Operator?",
-    "reference": "playground-database/sql/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li><li>Query <b>first_name, last_name, employee_id</b> in <b>employees</b> table when <b>first_name starts with 'S'</b> and <b>is not followed by 'h'</b>. Try to use multiple ways to solve.</li></ul>",
-    "answer": "<ul style='list-style-type: disc'><li>SELECT first_name, last_name, employee_id <br>FROM employees <br>WHERE first_name LIKE \"S%\" <br>AND first_NAME NOT LIKE \"_i%\"</li></ul>"
+    "question": "How to remove duplicate results?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-9"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to sort data in SQL?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-10"
+  },
+  {
+    "category": "Database",
+    "type": "SQL",
+    "question": "How to query data in SQL with custom column and alias?",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-database/sql/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul style='list-style-type: disc'><li><a href='https://www.sqltutorial.org/seeit/' target='_blank'>SQL Playground</a></li></ul>",
+    "creationTime": "2024-01-11T00:00:00.000Z",
+    "id": "Database-11"
   }
 ]

@@ -47,18 +47,29 @@ export function getUniqueItemList(list: any[], hasSort: boolean = true) {
   return Array.from(listSet);
 }
 
-export function getFilterList(list: string[], hasSort: boolean = true) {
-  if (!list || !list.length) return [];
+export function getFilterList(
+  filterList: string[],
+  hasSort: boolean = true,
+  dataList?: any[]
+) {
+  if (!filterList || !filterList.length) return [];
 
-  let clonedList = [...list];
+  let clonedList = [...filterList];
   if (hasSort) {
-    clonedList = sortList([...list]);
+    clonedList = sortList([...filterList]);
   }
 
-  const arr = clonedList.filter(Boolean).map((item) => ({
-    name: item,
-    value: item,
-  }));
+  const arr = clonedList.filter(Boolean).map((item) => {
+    let count = 0;
+    if (!!dataList && dataList?.length > 0) {
+      count = dataList.filter((data) => data.category === item).length;
+    }
+
+    return {
+      name: `${item}${count > 0 ? ` (${count})` : ""}`,
+      value: item,
+    };
+  });
   arr.unshift({
     name: "All",
     value: "All",

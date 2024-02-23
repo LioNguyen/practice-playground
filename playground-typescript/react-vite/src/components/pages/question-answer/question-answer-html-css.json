@@ -3,44 +3,67 @@
     "category": "HTML-CSS",
     "type": "HTML",
     "question": "Is there any difference between the way add external javascript file and external style file to HTML?",
-    "reference": "playground-html-css/README.md",
-    "creationTime": "2024-02-15T11:31:22.499Z"
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.499Z",
+    "id": "HTML-CSS-0"
   },
   {
     "category": "HTML-CSS",
     "type": "HTML",
     "question": "How to add external style to HTML?",
-    "reference": "playground-html-css/README.md",
-    "creationTime": "2024-02-15T11:31:22.500Z"
-  },
-  {
-    "category": "HTML-CSS",
-    "type": "CSS",
-    "question": "How to use Grid?",
-    "reference": "playground-html-css/README.md",
-    "creationTime": "2024-02-17T11:31:22.500Z"
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.500Z",
+    "id": "HTML-CSS-1"
   },
   {
     "category": "HTML-CSS",
     "type": "SCSS",
     "question": "How to create variables with SCSS?",
-    "reference": "playground-html-css/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://sass-lang.com/playground/#eJwzNAQAAJUAYw==' target='_blank'>SCSS Playground</a></li></ul>",
-    "creationTime": "2024-02-15T11:31:22.501Z"
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul><li><a href='https://sass-lang.com/playground/#eJwzNAQAAJUAYw==' target='_blank'>SCSS Playground</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.501Z",
+    "id": "HTML-CSS-2"
   },
   {
     "category": "HTML-CSS",
     "type": "SCSS",
     "question": "How to split 1 scss file into multiple scss files?",
-    "reference": "playground-html-css/README.md",
-    "creationTime": "2024-02-15T11:31:22.502Z"
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.502Z",
+    "id": "HTML-CSS-3"
   },
   {
     "category": "HTML-CSS",
     "type": "SCSS",
     "question": "How to create and use function in scss file?",
-    "reference": "playground-html-css/README.md",
-    "description": "<ul style='list-style-type: disc'><li><a href='https://sass-lang.com/playground/#eJwzNAQAAJUAYw==' target='_blank'>SCSS Playground</a></li></ul>",
-    "creationTime": "2024-02-15T11:31:22.503Z"
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/README.md' target='_blank'>Github Link</a></li></ul>",
+    "description": "<ul><li><a href='https://sass-lang.com/playground/#eJwzNAQAAJUAYw==' target='_blank'>SCSS Playground</a></li></ul>",
+    "creationTime": "2024-02-15T11:31:22.503Z",
+    "id": "HTML-CSS-4"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to use Grid?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-17T11:31:22.500Z",
+    "id": "HTML-CSS-5"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to setup Tailwind for project?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-23T11:30:22.500Z",
+    "id": "HTML-CSS-6"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "Which keywords and fields relates to '1 rem'?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-23T11:31:22.500Z",
+    "id": "HTML-CSS-7",
+    "answer": "<ul><li>There are 4 fields related: spacing, size, font, border</li></ul>"
   }
 ]
