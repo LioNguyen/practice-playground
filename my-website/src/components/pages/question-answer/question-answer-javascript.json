@@ -155,7 +155,7 @@
     "category": "Javascript",
     "type": "Data Type | Array",
     "question": "How to get unique item list?",
-    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-typescript/react-vite/src/utils/array.ts' target='_blank'>Github Link</a></li></ul>",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/my-website/src/utils/array.ts' target='_blank'>Github Link</a></li></ul>",
     "creationTime": "2024-01-11T00:00:00.000Z",
     "id": "Javascript-19"
   },
@@ -260,7 +260,7 @@
     "category": "Javascript",
     "type": "Data Type | Number",
     "question": "How to get random number?",
-    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-typescript/react-vite/src/utils/number.ts' target='_blank'>Github Link</a></li></ul>",
+    "reference": "<ul style='list-style-type: disc'><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/my-website/src/utils/number.ts' target='_blank'>Github Link</a></li></ul>",
     "creationTime": "2024-01-11T00:00:00.000Z",
     "id": "Javascript-32"
   },

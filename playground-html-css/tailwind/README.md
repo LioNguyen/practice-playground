@@ -103,7 +103,7 @@ module.exports = {
 
 ### Responsive Design
 
-[Responsive Design](https://tailwindcss.com/docs/responsive-design)
+[Tailwind Breakpoints](https://tailwindcss.com/docs/responsive-design)
 
 ```html
 <!-- Breakpoints 

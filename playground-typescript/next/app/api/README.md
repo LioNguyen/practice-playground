@@ -1,5 +1,9 @@
 # NEXT API?
 
+- [NEXT API?](#next-api)
+  - [Basic usage](#basic-usage)
+  - [API with Params](#api-with-params)
+
 ## Basic usage
 
 ```js
