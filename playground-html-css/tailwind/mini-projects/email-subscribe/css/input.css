@@ -1,0 +1,8 @@
+input {
+  background: theme("colors.red.800");
+  border: theme("colors.zinc.800");
+  transition-duration: 500ms;
+  &:hover {
+    background: theme("colors.green.800");
+  }
+}

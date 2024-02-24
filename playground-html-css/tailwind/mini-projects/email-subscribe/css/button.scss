@@ -1,0 +1,12 @@
+.btn {
+  background: theme("colors.lime.500");
+  padding: theme("spacing.3") theme("spacing.5");
+  border-radius: theme("borderRadius.md");
+  color: theme("colors.zinc.800");
+  font-size: theme("fontSize.xs");
+  transition-duration: 500ms;
+  &:hover {
+    background: theme("colors.lime.700");
+    color: theme("colors.white");
+  }
+}

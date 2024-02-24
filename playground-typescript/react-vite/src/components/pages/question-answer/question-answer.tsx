@@ -344,14 +344,16 @@ export function QuestionAnswer() {
               handleCategoryChange(e.target.value);
             }}
           />
-          <SelectOption
-            className="filter__type"
-            optionList={questionTypeList}
-            value={questionType}
-            onChange={(e) => {
-              handleTypeChange(e.target.value);
-            }}
-          />
+          {questionCategory !== "All" && (
+            <SelectOption
+              className="filter__type"
+              optionList={questionTypeList}
+              value={questionType}
+              onChange={(e) => {
+                handleTypeChange(e.target.value);
+              }}
+            />
+          )}
         </HStack>
       </HStack>
 

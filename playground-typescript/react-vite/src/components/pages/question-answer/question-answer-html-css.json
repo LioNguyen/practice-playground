@@ -52,7 +52,7 @@
   {
     "category": "HTML-CSS",
     "type": "CSS",
-    "question": "How to setup Tailwind for project?",
+    "question": "How to install and config Tailwind for project?",
     "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
     "creationTime": "2024-02-23T11:30:22.500Z",
     "id": "HTML-CSS-6"
@@ -65,5 +65,77 @@
     "creationTime": "2024-02-23T11:31:22.500Z",
     "id": "HTML-CSS-7",
     "answer": "<ul><li>There are 4 fields related: spacing, size, font, border</li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How many breakpoints does Tailwind have?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.000Z",
+    "id": "HTML-CSS-8",
+    "answer": "<ul><li>There are 5 fields related: sm (640), md (768), lg (1024), xl (1280), 2xl (1536)</li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to custom breakpoint in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.001Z",
+    "id": "HTML-CSS-9",
+    "answer": "<ul><li>Using tailwind.config.js: theme -> screens</li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to setup default style for element like h1, button, input ... in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.002Z",
+    "id": "HTML-CSS-10",
+    "answer": "<ul><li>Setup in main.css</li><li>Using @layer base { @apply ... } </li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to create reused styles with Directive in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.003Z",
+    "id": "HTML-CSS-11",
+    "answer": "<ul><li>Setup in main.css</li><li>Using @layer components { @apply ... } </li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to override themes in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.004Z",
+    "id": "HTML-CSS-12",
+    "answer": "<ul><li>Setup in tailwind.config.js</li><li>theme -> screens, colors, fontFamily...</li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to extend themes in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.005Z",
+    "id": "HTML-CSS-13",
+    "answer": "<ul><li>Setup in tailwind.config.js</li><li>extend -> borderRadius, spacing...</li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to reference values in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.006Z",
+    "id": "HTML-CSS-14",
+    "answer": "<ul><li>...theme('spacing')</li><li>theme('colors.gray')</li><li>theme('colors.gray')</li><li>...defaultTheme.fontFamily.sans</li></ul>"
+  },
+  {
+    "category": "HTML-CSS",
+    "type": "CSS",
+    "question": "How to combine multiple css files in Tailwind?",
+    "reference": "<ul><li><a href='https://github.com/LioNguyen/practice-playground/tree/master/playground-html-css/tailwind/README.md' target='_blank'>Github Link</a></li></ul>",
+    "creationTime": "2024-02-24T05:31:22.007Z",
+    "id": "HTML-CSS-15",
+    "answer": "<code>yarn add -D postcss-import</code><ul><li>Create postcss.config.js</li><li>Convert @tailwind ... into @import 'tailwindcss/...'</li></ul>"
   }
 ]

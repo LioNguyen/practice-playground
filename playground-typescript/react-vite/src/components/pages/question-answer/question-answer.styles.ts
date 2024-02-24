@@ -5,6 +5,15 @@ export const QuestionAnswerWrapper = chakra(Stack, {
     select: {
       height: "40px",
     },
+    code: {
+      display: "inline-block",
+      background: "#E2E8F0",
+      borderRadius: "4px",
+      color: "palevioletred",
+      fontWeight: 600,
+      margin: "0 0 10px",
+      padding: "5px 20px",
+    },
     ".question-generate-type": {
       ".chakra-select__wrapper": {
         width: "150px",
