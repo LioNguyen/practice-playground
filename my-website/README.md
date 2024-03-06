@@ -4,6 +4,7 @@
 
 - [React + TypeScript + Vite](#react--typescript--vite)
   - [What technologies we are using?](#what-technologies-we-are-using)
+  - [How to install vite?](#how-to-install-vite)
   - [How to setup path aliases w/ React + Vite + TS?](#how-to-setup-path-aliases-w-react--vite--ts)
   - [React Router Dom - How to setup router?](#react-router-dom---how-to-setup-router)
     - [How to get \& set searchParams using react-router-dom?](#how-to-get--set-searchparams-using-react-router-dom)
@@ -21,6 +22,12 @@
 - [Chakra UI README](./src//library/chakra-ui/README.md)
 - [Eslint](https://eslint.org/docs/latest)
 - [Plop](https://plopjs.com)
+
+## How to install vite?
+
+```bash
+npm create vite@latest ./ -- --template react-ts
+```
 
 ## How to setup path aliases w/ React + Vite + TS?
 

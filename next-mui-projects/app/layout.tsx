@@ -1,11 +1,13 @@
+// import * as S from "./layout.styles"
+
+import { AppDrawer } from "@/app/components";
+import ThemeProvider from "@/app/providers/ThemeProvider";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
-import ThemeProvider from "@/app/providers/ThemeProvider";
 
 const roboto = Roboto({
-  weight: ["300", "400", "500", "700"],
+  weight: ["100", "300", "400", "500", "700"],
   subsets: ["latin"],
   display: "swap",
 });
@@ -25,18 +27,7 @@ export default function RootLayout({
       <html lang="en">
         <head></head>
         <body className={roboto.className}>
-          <ul>
-            <li>
-              <Link href="/">Home Page</Link>
-            </li>
-            <li>
-              <Link href="/project_1">Project 1</Link>
-            </li>
-            <li>
-              <Link href="/project_2">Project 2</Link>
-            </li>
-          </ul>
-          {children}
+          <AppDrawer>{children}</AppDrawer>
         </body>
       </html>
     </ThemeProvider>
